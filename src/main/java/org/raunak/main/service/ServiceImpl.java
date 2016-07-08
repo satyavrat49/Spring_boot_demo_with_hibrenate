@@ -29,7 +29,7 @@ public class ServiceImpl implements MyService {
 		RoleDTO role = new RoleDTO();
 		role.setRoleId("3");
 		role.setRole("USER");
-		userDTO.setState("DACTIVE");
+		userDTO.setState("INACTIVE");
 		userDTO.setRole(role);
 		if (MyStringUtill.isNullOrEmpty(userDTO.getPassword())) {
 			userDTO.setPassword("Login1-2");

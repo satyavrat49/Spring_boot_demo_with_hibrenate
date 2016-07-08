@@ -34,4 +34,4 @@ CREATE TABLE USER_MST (
  FOREIGN KEY (ROLE_ID) REFERENCES ROLE_MST(ROLE_ID)
 );
 INSERT INTO ROLE_MST VALUES('1','ADMIN',NULL,NULL),('2','DEVELOPER',NULL,NULL),('3','USER',NULL,NULL);
-INSERT INTO USER_MST VALUES('1','Raunak','Raunak.nayak@gmail.com','Raunak','nayak','Login1-2',NULL,NULL,'1','ACTIVE',NULL,NULL),('2','Ashish','ashish.jain@gmail.com','Ashish','Jain','Login1-2',NULL,NULL,'2','ACTIVE',NULL,NULL),('3','Ram','ram.jain@gmail.com','Ram','jain','Login1-2',NULL,NULL,'3','ACTIVE',NULL,NULL);
+INSERT INTO USER_MST VALUES('1','raunak','raunak.nayak@gmail.com','raunak','nayak','Login1-2',NULL,NULL,'1','ACTIVE',NULL,NULL),('2','Ashish','ashish.jain@gmail.com','Ashish','Jain','Login1-2',NULL,NULL,'2','ACTIVE',NULL,NULL),('3','Ram','ram.sharma020@gmail.com','Ram','Mehar','Login1-2',NULL,NULL,'3','ACTIVE',NULL,NULL);
